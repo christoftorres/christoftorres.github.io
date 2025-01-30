@@ -1,1 +1,485 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <title>Christof Ferreira Torres</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="color-scheme" content="dark light">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Christof Ferreira Torres">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container">
+	        <div class="row align-items-center">
+			    <div class="col">
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.jpg" width="200px" height="200px" alt="Christof Torres" />
+		            <div class="profile-content">
+		                <h1 class="name">Christof Ferreira Torres</h1>
+		                <h2 class="desc">Assistant Professor at Instituto Superior Técnico (IST), University of Lisbon</h2>
+                    <ul class="social list-inline">
+                        <li class="list-inline-item"><a href="https://twitter.com/christoftorres" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=tPf4yowAAAAJ" target="_blank"><i class="fab"></i><img src="assets/icons/google-scholar.png" style="width: 20px; float: left; margin-left: 8px; margin-top: -24px;"/></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/christoftorres" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/christof-ferreira-torres-12ab5ab9/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item"><a href="https://dblp.org/pid/169/2279.html" target="_blank"><i class="fab"></i><img src="assets/icons/dblp.png" style="width: 20px; float: left; margin-left: 8px; margin-top: -24px;"/></a></li>
+                    </ul>
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" style="visibility: hidden;"/>
+
+						</div>
+			        </div><!--//dark-mode-switch-->
+	            </div><!--//col-->
+	        </div><!--//row-->
+        </div><!--//container-->
+    </header><!--//header-->
+
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                          <p style="text-align:justify;">
+                            I am currently an invited Assistant Professor at the <a href="https://dei.tecnico.ulisboa.pt/en" target="_blank">Department of Computer Science and Engineering (DEI)</a> at <a href="https://tecnico.ulisboa.pt/en/" target="_blank">Instituto Superior Técnico (IST)</a>, <a href="https://www.ulisboa.pt/en" target="_blank">University of Lisbon</a> and a researcher at <a href="https://www.inesc-id.pt/" target="_blank">INESC-ID</a>, where I am a member of the <a href="https://www.dpss.inesc-id.pt/" target="_blank">Distributed, Parallel and Secure Systems (DPSS)</a> group. 
+                            My research lies at the intersection of program analysis and software security, with a focus on improving the privacy and security aspects of blockchain systems.
+                            Before joining IST, I have been a postdoctoral fellow at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich (ETH)</a>, where I was part of the <a href="https://sectrs.ethz.ch/" target="_blank">Secure & Trustworthy Systems (SECTRS)</a> group lead by <a href="https://n.ethz.ch/~sshivaji/" target="_blank">Prof. Dr. Shweta Shinde</a>.
+                            I received my Ph.D. in Computer Science in 2022 from the <a href="https://wwwen.uni.lu" target="_blank">University of Luxembourg (UL)</a> and the <a href="https://www.tum.de" target="_blank">Technical University of Munich (TUM)</a> under the supervision of <a href="https://wwwde.uni.lu/snt/people/radu_state" target="_blank">Prof. Dr. Radu State</a> (UL) and <a href="https://www.sec.in.tum.de/i20/people/claudia-eckert" target="_blank">Prof. Dr. Claudia Eckert</a> (TUM). My Ph.D. thesis focuses on the <a href="https://orbilu.uni.lu/bitstream/10993/51118/1/Christof_FERREIRA_TORRES_PhD_Thesis.pdf" target="_blank">Automated Security Assessment and Improvement of Smart Contracts</a>.
+                          Prior to that, I have been working as a security researcher at the <a href="https://www.aisec.fraunhofer.de/" target="_blank">Fraunhofer Institute for Applied and Integrated Security (AISEC)</a> near Munich, Germany.</p>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="publication section" id="publication">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Hiring</h2>
+                        <div class="content">
+                          <p style="text-align:justify;">
+                            I am currently looking for motivated and talented students interested in pursuing a PhD in the area of blockchain security and privacy.
+                            For more details please have a look <a href="assets/documents/phd_position_in_blockchain_security_and_privacy.pdf" target="_blank">here</a>. If you are a Bachelor or Master student currently looking for a thesis project, please feel free to reach out to me by sending me an email with your CV and recent transcript of records.
+                          </p>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->                
+
+                <section class="publication section" id="publication">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Selected Publications</h2>
+                          <div class="content">
+                              <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">Analyzing the Impact of Copying-and-Pasting Vulnerable Solidity Code Snippets from Question-and-Answer Websites</h6>
+                                    <span><i>Konrad Weiss, <span class="me"><b>Christof Ferreira Torres</b></span>, Florian Wendland</i></span><br>
+                                    <span>24th ACM Internet Measurement Conference, Madrid, Spain, November 4-6, 2024. (<b><a href="https://conferences.sigcomm.org/imc/2024" target="_blank">IMC 2024</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs14" aria-expanded="false" aria-controls="collapseAbs14">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://arxiv.org/pdf/2409.07586" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/contract-clone-detector" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs14">
+                                        <p align="justify">
+                                            Ethereum smart contracts are executable programs deployed on a blockchain. Once deployed, they cannot be updated due to their inherent immutability. Moreover, they often manage valuable assets that are worth millions of dollars, making them attractive targets for attackers. The introduction of vulnerabilities in programs due to the reuse of vulnerable code posted on Q&A websites such as Stack Overflow is not a new issue. However, little effort has been made to analyze the extent of this issue on deployed smart contracts. In this paper, we conduct a study on the impact of vulnerable code reuse from Q&A websites during the development of smart contracts and provide tools uniquely fit to detect vulnerable code patterns in complete and incomplete Smart Contract code. This paper proposes a pattern-based vulnerability detection tool that is able to analyze code snippets (i.e., incomplete code) as well as full smart contracts based on the concept of code property graphs. We also propose a methodology that leverages fuzzy hashing to quickly detect code clones of vulnerable snippets among deployed smart contracts. Our results show that our vulnerability search, as well as our code clone detection, are comparable to state-of-the-art while being applicable to code snippets. Our large-scale study on 18,660 code snippets reveals that 4,596 of them are vulnerable, out of which 616 can be found in 7,852 deployed smart contracts. These results highlight that the reuse of vulnerable code snippets is indeed an issue in currently deployed smart contracts.
+                                        </p>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">Rolling in the Shadows: Analyzing the Extraction of MEV Across Layer-2 Rollups</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Albin Mamuti, Ben Weintraub, Cristina Nita-Rotaru, Shweta Shinde</i></span><br>
+                                    <span>31st ACM Conference on Computer and Communications Security, Salt Lake City, USA, October 14-18, 2024. (<b><a href="https://www.sigsac.org/ccs/CCS2024" target="_blank">CCS 2024</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs13" aria-expanded="false" aria-controls="collapseAbs13">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://arxiv.org/pdf/2405.00138" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/Rolling-in-the-Shadows" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs13">
+                                        <p align="justify">
+                                            The emergence of decentralized finance has transformed asset trading on the blockchain, making traditional financial instruments more accessible while also introducing a series of exploitative economic practices known as Maximal Extractable Value (MEV). Concurrently, decentralized finance has embraced rollup-based Layer-2 solutions to facilitate asset trading at reduced transaction costs compared to Layer-1 solutions such as Ethereum. However, rollups lack a public mempool like Ethereum, making the extraction of MEV more challenging. In this paper, we investigate the prevalence and impact of MEV on Ethereum and prominent rollups such as Arbitrum, Optimism, and zkSync over a nearly three-year period. Our analysis encompasses various metrics including volume, profits, costs, competition, and response time to MEV opportunities. We discover that MEV is widespread on rollups, with trading volume comparable to Ethereum. We also find that, although MEV costs are lower on rollups, profits are also significantly lower compared to Ethereum. Additionally, we examine the prevalence of sandwich attacks on rollups. While our findings did not detect any sandwiching activity on popular rollups, we did identify the potential for cross-layer sandwich attacks facilitated by transactions that are sent across rollups and Ethereum. Consequently, we propose and evaluate the feasibility of three novel attacks that exploit cross-layer transactions, revealing that attackers could have already earned approximately 2 million USD through cross-layer sandwich attacks. 
+                                        </p>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">Ethereum's Proposer-Builder Separation: Promises and Realities</h6>
+                                    <span><i>Lioba Heimbach, Lucianna Kiffer, <span class="me"><b>Christof Ferreira Torres</b></span>, Roger Wattenhofer</i></span><br>
+                                    <span>23rd ACM Internet Measurement Conference, Montréal, Canada, October 24-26, 2023. (<b><a href="https://conferences.sigcomm.org/imc/2023" target="_blank">IMC 2023</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs12" aria-expanded="false" aria-controls="collapseAbs12">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://arxiv.org/pdf/2305.19037.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/liobaheimbach/Ethereum-s-Proposer-Builder-Separation-Promises-and-Realities" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs12">
+                                        <p align="justify">
+                                          With Ethereum's transition from Proof-of-Work to Proof-of-Stake in September 2022 came another paradigm shift, the Proposer-Builder Separation (PBS) scheme. PBS was introduced to decouple the roles of selecting and ordering transactions in a block (i.e., the builder), from those validating its contents and proposing the block to the network as the new head of the blockchain (i.e., the proposer). In this landscape, proposers are the validators in the Proof-of-Stake consensus protocol who validate and secure the network, while now relying on specialized block builders for creating blocks with the most value (e.g., transaction fees) for the proposer. Additionally, relays play a crucial new role in this ecosystem, acting as mediators between builders and proposers, being entrusted with the responsibility of transmitting the most lucrative blocks from the builders to the proposers.
+                                          PBS is currently an opt-in protocol (i.e., a proposer can still opt-out and build their own blocks). In this work, we study it's adoption and show that the current PBS landscape exhibits significant centralization amongst the builders and relays. We further explore whether PBS effectively achieves its intended objectives of enabling hobbyist validators to maximize block profitability and preventing censorship. Our findings reveal that although PBS grants all validators the same opportunity to access optimized and competitive blocks, it tends to stimulate censorship rather than reduce it. Additionally, our analysis demonstrates that relays do not consistently uphold their commitments and may prove unreliable. Specifically, there are instances where proposers do not receive the complete value as initially promised, and the censorship or filtering capabilities pledged by the relay exhibit significant gaps.
+                                        </p>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">Is Your Wallet Snitching On You? An Analysis on the Privacy Implications of Web3</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Fiona Willi, Shweta Shinde</i></span><br>
+                                    <span>32nd USENIX Security Symposium, Anaheim, CA, USA, August 9-11, 2023. (<b><a href="https://www.usenix.org/conference/usenixsecurity23" target="_blank">USENIX 2023</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs13" aria-expanded="false" aria-controls="collapseAbs13">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://arxiv.org/pdf/2306.08170.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://www.usenix.org/system/files/sec23_slides_torres.pdf" target="_blank"><i class="fa fa-tv"></i> Slides</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/Web3-Privacy" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs13">
+                                        <p align="justify">
+                                          With the recent hype around the Metaverse and NFTs, Web3 is getting more and more popular.
+                                          The goal of Web3 is to decentralize the web via decentralized applications. Wallets play a crucial role as they act as an interface between these applications and the user. Wallets such as MetaMask are being used by millions of users nowadays. Unfortunately, Web3 is often advertised as more secure and private. However, decentralized applications as well as wallets are based on traditional technologies, which are not designed with privacy of users in mind. In this paper, we analyze the privacy implications that Web3 technologies such as decentralized applications and wallets have on users. To this end, we build a framework that measures exposure of wallet information. First, we study whether information about installed wallets is being used to track users online. We analyze the top 100K websites and find evidence of 1,325 websites running scripts that probe whether users have wallets installed in their browser. Second, we measure whether decentralized applications and wallets leak the user's unique wallet address to third-parties.
+                                          We intercept the traffic of 616 decentralized applications and 100 wallets and find over 2000 leaks across 211 applications and more than 300 leaks across 13 wallets.
+                                          Our study shows that Web3 poses a threat to users' privacy and requires new designs towards more privacy-aware wallet architectures.
+                                        </p>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">A Flash(bot) in the Pan: Measuring Maximal Extractable Value in Private Pools</h6>
+                                    <span><i>Ben Weintraub, <span class="me"><b>Christof Ferreira Torres</b></span>, Cristina Nita-Rotaru, Radu State</i></span><br>
+                                    <span>22nd ACM Internet Measurement Conference, Nice, France, October 25-27, 2022. (<b><a href="https://conferences.sigcomm.org/imc/2022" target="_blank">IMC 2022</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs11" aria-expanded="false" aria-controls="collapseAbs11">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://arxiv.org/pdf/2206.04185.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/a-flashbot-in-the-pan/a-flashbot-in-the-pan" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs11">
+                                        <p align="justify">
+                                          The rise of Ethereum has lead to a flourishing decentralized marketplace that has, unfortunately, fallen victim to frontrunning and Maximal Extractable Value (MEV) activities, where savvy participants game transaction orderings within a block for profit. One popular solution to address such behavior is Flashbots, a private pool with infrastructure and design goals aimed at eliminating the negative externalities associated with MEV. While Flashbots has established laudable goals to address MEV behavior, no evidence has been provided to show that these goals are achieved in practice.
+                                          In this paper, we measure the popularity of Flashbots and evaluate if it is meeting its chartered goals. We find that (1) Flashbots miners account for over 99.9% of the hashing power in the Ethereum network, (2) powerful miners are making more than 2x what they were making prior to using Flashbots, while non-miners' slice of the pie has shrunk commensurately, (3) mining is just as centralized as it was prior to Flashbots with more than 90% of Flashbots blocks coming from just two miners, and (4) while more than 80% of MEV extraction in Ethereum is happening through Flashbots, 13.2% is coming from other private pools.
+                                        </p>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">Elysium: Context-Aware Bytecode-Level Patching to Automatically Heal Vulnerable Smart Contracts</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Hugo Jonker, Radu State</i></span><br>
+                                    <span>25th International Symposium on Research in Attacks, Intrusions and Defenses, Limassol, Cyprus, October 26-28, 2022. (<b><a href="https://raid2022.cs.ucy.ac.cy/index.html" target="_blank">RAID 2022</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs10" aria-expanded="false" aria-controls="collapseAbs10">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://arxiv.org/pdf/2108.10071v3.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/Elysium" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs10">
+                                        <p align="justify">
+                                          Fixing bugs is easiest by patching source code. However, source code is not always available: only 0.3% of the ∼49M smart contracts that are currently deployed on Ethereum have their source code publicly available. Moreover, since contracts may call functions from other contracts, security flaws in closed-source contracts may affect open-source contracts as well. However, current state-of-the-art approaches that operate on closed-source contracts (i.e., EVM bytecode), such as EVMPatch and SmartShield, make use of purely hard-coded templates that leverage fix patching patterns. As a result, they cannot dynamically adapt to the bytecode that is being patched, which severely limits their flexibility and scalability. For instance, when patching integer overflows using hard-coded templates, a particular patch template needs to be employed as the bounds to be checked are different for each integer size (i.e., one template for uint256, another template for uint64, etc.).
+                                          In this paper, we propose Elysium, a scalable approach towards automatic smart contract repair at the bytecode level. Elysium combines template-based and semantic-based patching by inferring context information from bytecode. Elysium is currently able to patch 7 different types of vulnerabilities in smart contracts automatically and can easily be extended with new templates and new bug-finding tools. We evaluate its effectiveness and correctness using 3 different datasets by replaying more than 500K transactions on patched contracts. We find that Elysium outperforms existing tools by patching at least 30% more contracts correctly. Finally, we also compare the overhead of Elysium in terms of deployment and transaction cost. In comparison to other tools, we find that generally Elysium minimizes the runtime cost (i.e., transaction cost) up to a factor of 1.7, for only a marginally higher deployment cost, where deployment cost is a one-time cost as compared to the runtime cost.
+                                        </p>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">Frontrunner Jones and the Raiders of the Dark Forest: An Empirical Study of Frontrunning on the Ethereum Blockchain</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Ramiro Camino, Radu State</i></span><br>
+                                    <span>30th USENIX Security Symposium, Virtual, August 11-13, 2021. (<b><a href="https://www.usenix.org/conference/usenixsecurity21" target="_blank">USENIX 2021</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs9" aria-expanded="false" aria-controls="collapseAbs9">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://arxiv.org/pdf/2102.03347.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://www.usenix.org/system/files/sec21_slides_torres.pdf" target="_blank"><i class="fa fa-tv"></i> Slides</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/Frontrunner-Jones" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs9">
+                                        <p align="justify">
+                                          Ethereum prospered the inception of a plethora of smart contract applications, ranging from gambling games to decentralized finance. However, Ethereum is also considered a highly adversarial environment, where vulnerable smart contracts will eventually be exploited. Recently, Ethereum's pool of pending transaction has become a far more aggressive environment. In the hope of making some profit, attackers continuously monitor the transaction pool and try to front-run their victims' transactions by either displacing or suppressing them, or strategically inserting their transactions. This paper aims to shed some light into what is known as a dark forest and uncover these predators' actions. We present a methodology to efficiently measure the three types of frontrunning: displacement, insertion, and suppression. We perform a large-scale analysis on more than 11M blocks and identify almost 200K attacks with an accumulated profit of 18.41M USD for the attackers, providing evidence that frontrunning is both, lucrative and a prevalent issue.
+                                        </p>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">ConFuzzius: A Data Dependency-Aware Hybrid Fuzzer for Smart Contracts</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Antonio Ken Iannillo, Arthur Gervais, Radu State</i></span><br>
+                                    <span>6th IEEE European Symposium on Security and Privacy, Virtual, October 7–22, 2021 (<b><a href="https://www.ieee-security.org/TC/EuroSP2021/" target="_blank">EuroS&P 2021</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs8" aria-expanded="false" aria-controls="collapseAbs8">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://arxiv.org/pdf/2005.12156.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/ConFuzzius" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs8">
+                                        <div class="well">
+                                            <p align="justify">
+                                                Smart contracts are Turing-complete programs executed across the blockchain. Unlike traditional programs, once deployed, they cannot be modified. As smart contracts carry more value, they become an exciting target for attackers. Over the last years, they suffered from exploits costing millions of dollars due to simple programming mistakes. As a result, a variety of tools for detecting bugs have been proposed. Most of these tools rely on symbolic execution, which yields many false positives due to over-approximation. Recently, many fuzzers have been proposed to detect bugs in smart contracts. However, these tend to be more effective in finding shallow bugs and less effective in finding bugs that lie deep in the execution, therefore achieving low code coverage and many false negatives. An alternative that has proven to achieve good results in traditional programs is hybrid fuzzing, a combination of symbolic execution and fuzzing. In this work, we study hybrid fuzzing on smart contracts and present ConFuzzius, the first hybrid fuzzer for smart contracts. ConFuzzius uses evolutionary fuzzing to exercise shallow parts of a smart contract and constraint solving to generate inputs that satisfy complex conditions that prevent evolutionary fuzzing from exploring deeper parts. Moreover, ConFuzzius leverages dynamic data dependency analysis to efficiently generate sequences of transactions that are more likely to result in contract states in which bugs may be hidden. We evaluate the effectiveness of ConFuzzius by comparing it with state-of-the-art symbolic execution tools and fuzzers for smart contracts. Our evaluation on a curated dataset of 128 contracts and a dataset of 21K real-world contracts shows that our hybrid approach detects more bugs than state-of-the-art tools (up to 23%) and that it outperforms existing tools in terms of code coverage (up to 69%). We also demonstrate that data dependency analysis can boost bug detection up to 18%.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">The Eye of Horus: Spotting and Analyzing Attacks on Ethereum Smart Contracts</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Antonio Ken Iannillo, Arthur Gervais, Radu State</i></span><br>
+                                    <span>25th International Conference on Financial Cryptography and Data Security, Virtual, March 1–5, 2021 (<b><a href="https://fc21.ifca.ai/" target="_blank">FC 2021</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs7" aria-expanded="false" aria-controls="collapseAbs7">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://orbilu.uni.lu/retrieve/77779/85581/FC_21_Horus_Torres.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/Horus" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs7">
+                                        <div class="well">
+                                            <p align="justify">
+                                                In recent years, Ethereum gained tremendously in popularity, growing from a daily transaction average of 10K in January 2016 to an average of 500K in January 2020. Similarly, smart contracts began to carry more value, making them appealing targets for attackers. As a result, they started to become victims of attacks, costing millions of dollars. In response to these attacks, both academia and industry proposed a plethora of tools to scan smart contracts for vulnerabilities before deploying them on the blockchain. However, most of these tools solely focus on detecting vulnerabilities and not attacks, let alone quantifying or tracing the number of stolen assets. In this paper, we present Horus, a framework that empowers the automated detection and investigation of smart contract attacks based on logic-driven and graph-driven analysis of transactions. Horus provides quick means to quantify and trace the flow of stolen assets across the Ethereum blockchain. We perform a large-scale analysis of all the smart contracts deployed on Ethereum until May 2020. We identified 1,888 attacked smart contracts and 8,095 adversarial transactions in the wild. Our investigation shows that the number of attacks did not necessarily decrease over the past few years, but for some vulnerabilities remained constant. Finally, we also demonstrate the practicality of our framework via an in-depth analysis on the recent Uniswap and Lendf.me attacks.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">High-Frequency Trading on Decentralized On-Chain Exchanges</h6>
+                                    <span><i>Liyi Zhou, Kaihua Qin, <span class="me"><b>Christof Ferreira Torres</b></span>, Duc V Le, Arthur Gervais</i></span><br>
+                                    <span>42nd IEEE Symposium on Security and Privacy, Virtual, May 23-27, 2021 (<b><a href="https://www.ieee-security.org/TC/SP2021/index.html" target="_blank">S&P 2021</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs0" aria-expanded="false" aria-controls="collapseAbs0">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://arxiv.org/pdf/2009.14021.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+                                    <div class="collapse" id="collapseAbs0">
+                                        <div class="well">
+                                            <p align="justify">
+                                              Decentralized exchanges (DEXs) allow parties to participate in financial markets while retaining full custody of their funds. However, the transparency of blockchain-based DEX in combination with the latency for transactions to be processed, makes market-manipulation feasible. For instance, adversaries could perform front-running -- the practice of exploiting (typically non-public) information that may change the price of an asset for financial gain. In this work we formalize, analytically exposit and empirically evaluate an augmented variant of front-running: sandwich attacks, which involve front- and back-running victim transactions on a blockchain-based DEX. We quantify the probability of an adversarial trader being able to undertake the attack, based on the relative positioning of a transaction within a blockchain block. We find that a single adversarial trader can earn a daily revenue of over several thousand USD when performing sandwich attacks on one particular DEX -- Uniswap, an exchange with over 5M USD daily trading volume by June 2020. In addition to a single-adversary game, we simulate the outcome of sandwich attacks under multiple competing adversaries, to account for the real-world trading environment.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">ÆGIS: Shielding Vulnerable Smart Contracts Against Attacks</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Mathis Baden, Robert Norvill, Beltran Fiz Pontiveros, Hugo Jonker, Sjouke Mauw</i></span><br>
+                                    <span>15th ACM Asia Conference on Computer and Communications Security, Virtual, October 5–9, 2020 (<b><a href="https://asiaccs2020.cs.nthu.edu.tw/" target="_blank">AsiaCCS 2020</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs6" aria-expanded="false" aria-controls="collapseAbs6">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://orbilu.uni.lu/bitstream/10993/42957/1/Aegis_ASIACCS_2020.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/Aegis" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs6">
+                                        <div class="well">
+                                            <p align="justify">
+                                                In recent years, smart contracts have suffered major exploits, costing millions of dollars. Unlike traditional programs, smart contracts are deployed on a blockchain. As such, they cannot be modified once deployed. Though various tools have been proposed to detect vulnerable smart contracts, the majority fails to protect vulnerable contracts that have already been deployed on the blockchain. Only very few solutions have been proposed so far to tackle the issue of post-deployment. However, these solutions suffer from low precision and are not generic enough to prevent any type of attack. In this work, we introduce ÆGIS, a dynamic analysis tool that protects smart contracts from being exploited during runtime. Its capability of detecting new vulnerabilities can easily be extended through so-called attack patterns. These patterns are written in a domain-specific language that is tailored to the execution model of Ethereum smart contracts. The language enables the description of malicious control and data flows. In addition, we propose a novel mechanism to streamline and speed up the process of managing attack patterns. Patterns are voted upon and stored via a smart contract, thus leveraging the benefits of tamper-resistance and transparency provided by the blockchain. We compare ÆGIS to current state-of-the-art tools and demonstrate that our solution achieves higher precision in detecting attacks. Finally, we performa large-scale analysis on the first 4.5 million blocks of the Ethereum blockchain, thereby confirming the occurrences of well reported and yet unreported attacks in the wild.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">ÆGIS: Smart Shielding of Smart Contracts</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Mathis Baden, Robert Norvill, Hugo Jonker</i></span><br>
+                                    <span>26th ACM Conference on Computer and Communications Security, London, UK, November 11-15, 2019 (<b><a href="https://www.sigsac.org/ccs/CCS2019/" target="_blank">CCS 2019</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs1" aria-expanded="false" aria-controls="collapseAbs1">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://dl.acm.org/doi/10.1145/3319535.3363263" target="_blank"><i class="fa fa-file-pdf"></i> Poster</a>
+                                    <div class="collapse" id="collapseAbs1">
+                                        <div class="well">
+                                            <p align="justify">
+                                                In recent years, smart contracts have suffered major exploits, losing millions of dollars. Unlike traditional programs, smart contracts cannot be updated once deployed. Though various tools were proposed to detect vulnerable smart contracts, they all fail to protect contracts that have already been deployed on the blockchain. Moreover, they focus on vulnerabilities, but do not address scams (e.g., honeypots). In this work, we introduce ÆGIS, a tool that shields smart contracts and users on the blockchain from being exploited. To this end, ÆGIS reverts transactions in real-time based on pattern matching. These patterns encode the detection of malicious transactions that trigger exploits or scams. New patterns are voted upon and stored via a smart contract, thus leveraging the benefits of tamper-resistance and transparency provided by blockchain. By allowing its protection to be updated, the smart contract acts as a smart shield.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Mathis Steichen, Radu State</i></span><br>
+                                    <span>28th USENIX Security Symposium, Santa Clara, CA, USA, August 14-16, 2019. (<b><a href="https://www.usenix.org/conference/usenixsecurity19" target="_blank">USENIX 2019</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs2" aria-expanded="false" aria-controls="collapseAbs2">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://www.usenix.org/system/files/sec19-torres.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://www.usenix.org/sites/default/files/conference/protected-files/sec19_slides_torres.pdf" target="_blank"><i class="fa fa-tv"></i> Slides</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/HoneyBadger" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs2">
+                                        <div class="well">
+                                            <p align="justify">
+                                                Modern blockchains, such as Ethereum, enable the execution of so-called smart contracts – programs that are executed across a decentralised network of nodes. As smart contracts become more popular and carry more value, they become more of an interesting target for attackers. In the past few years, several smart contracts have been exploited by attackers. However, a new trend towards a more proactive approach seems to be on the rise, where attackers do not search for vulnerable contracts anymore. Instead, they try to lure their victims into traps by deploying seemingly vulnerable contracts that contain hidden traps. This new type of contracts is commonly referred to as honeypots. In this paper, we present the first systematic analysis of honeypot smart contracts, by investigating their prevalence, behaviour and impact on the Ethereum blockchain. We develop a taxonomy of honeypot techniques and use this to build HoneyBadger – a tool that employs symbolic execution and well defined heuristics to expose honeypots. We perform a large-scale analysis on more than 2 million smart contracts and show that our tool not only achieves high precision, but is also highly efficient. We identify 690 honeypot smart contracts as well as 240 victims in the wild, with an accumulated profit of more than $90,000 for the honeypot creators. Our manual validation shows that 87% of the reported contracts are indeed honeypots.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">Osiris: Hunting for Integer Bugs in Ethereum Smart Contracts</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Julian Schütte, Radu State</i></span><br>
+                                    <span>34th Annual Computer Security Applications Conference, San Juan, PR, USA, December 3-7, 2018. (<b><a href="https://www.acsac.org/2018/" target="_blank">ACSAC 2018</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs3" aria-expanded="false" aria-controls="collapseAbs3">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://orbilu.uni.lu/bitstream/10993/36757/1/osiris.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/Osiris" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs3">
+                                        <div class="well">
+                                            <p align="justify">
+                                              The capability of executing so-called smart contracts in a decentralised manner is one of the compelling features of modern blockchains. Smart contracts are fully fledged programs which cannot be changed once deployed to the blockchain. They typically implement the business logic of distributed apps and carry billions of dollars worth of coins. In that respect, it is imperative that smart contracts are correct and have no vulnerabilities or bugs. However, research has identified different classes of vulnerabilities in smart contracts, some of which led to prominent multi-million dollar fraud cases. In this paper we focus on vulnerabilities related to integer bugs, a class of bugs that is particularly difficult to avoid due to some characteristics of the Ethereum Virtual Machine and the Solidity programming language. In this paper, we introduce Osiris – a framework that combines symbolic execution and taint analysis, in order to accurately find integer bugs in Ethereum smart contracts. Osiris detects a greater range of bugs than existing tools, while providing a better specificity of its detection. We have evaluated its performance on a large experimental dataset containing more than 1.2 million smart contracts. We found that 42,108 contracts contain integer bugs. Besides being able to identify several vulnerabilities that have been reported in the past few months, we were also able to identify a yet unknown critical vulnerability in a couple of smart contracts that are currently deployed on the Ethereum blockchain.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">Investigating Fingerprinters and Fingerprinting-Alike Behaviour of Android Applications</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Hugo Jonker</i></span><br>
+                                    <span>23rd European Symposium on Research in Computer Security, Barcelona, Spain, September 3-7, 2018. (<b><a href="https://esorics2018.upc.edu/" target="_blank">ESORICS 2018</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs4" aria-expanded="false" aria-controls="collapseAbs4">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="https://orbilu.uni.lu/bitstream/10993/36368/1/fp-sherlock_esorics2018.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+                                    <div class="collapse" id="collapseAbs4">
+                                        <div class="well">
+                                            <p align="justify">
+                                              Fingerprinting of browsers has been thoroughly investigated. In contrast, mobile phone applications offer a far wider array of attributes for profiling, yet fingerprinting practices on this platform have hardly received attention. In this paper, we present the first (to our knowledge) investigation of Android libraries by commercial fingerprinters. Interestingly enough, there is a marked difference with fingerprinting desktop browsers. We did not find evidence of typical fingerprinting techniques such as canvas fingerprinting. Secondly, we searched for behaviour resembling that of commercial fingerprinters. We performed a detailed analysis of six similar libraries. Thirdly, we investigated ~30,000 apps and found that roughly 19% of these apps is using one of these libraries. Finally, we checked how often these libraries were used by apps subject to the Children’s Online Privacy Protection Act (i.e. apps targeted explicitly at children), and found that these libraries were included 21 times.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-book"></i>
+                                    <h6 class="title">FP-Block: Usable Web Privacy by Controlling Browser Fingerprinting</h6>
+                                    <span><i><span class="me"><b>Christof Ferreira Torres</b></span>, Hugo Jonker, Sjouke Mauw</i></span><br>
+                                    <span>20th European Symposium on Research in Computer Security, Vienna, Austria, September 21-25, 2015. (<b><a href="http://esorics2015.sba-research.org/" target="_blank">ESORICS 2015</a></b>)</span><br>
+                                    <a data-toggle="collapse" href="#collapseAbs5" aria-expanded="false" aria-controls="collapseAbs5">
+                                        <i class="fa fa-plus-square"></i> Abstract
+                                    </a>&nbsp;&nbsp;
+                                    <a href="http://orbilu.uni.lu/bitstream/10993/25999/1/ESORICS15.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+                                    <a href="http://www.open.ou.nl/hjo/talks/esorics15.pdf" target="_blank"><i class="fa fa-tv"></i> Slides</a>&nbsp;&nbsp;
+                                    <a href="https://github.com/christoftorres/FP-Block" target="_blank"><i class="fa fa-code-fork"></i> PoC</a>
+                                    <div class="collapse" id="collapseAbs5">
+                                        <div class="well">
+                                            <p align="justify">
+                                                Online tracking of users is used for benign goals, such as detecting fraudulent logins, but also to invade user privacy. We posit that for non-oppressed users, tracking within one website does not have a substantial negative impact on privacy, while it enables legitimate benefits. In contrast, cross-domain tracking negatively impacts user privacy, while being of little benefit to the user. Existing methods to counter fingerprint-based tracking treat cross-domain tracking and regular tracking the same. This often results in hampering or disabling desired functionality, such as embedded videos. By distinguishing between regular and cross-domain tracking, more desired functionality can be preserved. We have developed a prototype tool, FP-Block, that counters cross-domain fingerprint-based tracking while still allowing regular tracking. FP-Block ensures that any embedded party will see a different, unrelatable fingerprint for each site on which it is embedded. Thus, the user’s fingerprint can no longer be tracked across the web, while desired functionality is better preserved compared to existing methods.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li><!--//li-->
+                            </ul><!--//ul-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Contact Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker-alt"></i><span class="sr-only">Location:</span>
+                                    Rua Alves Redol, 9</br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1000-029 Lisbon, Portugal</br>
+                                </li>
+                                <li><i class="fa fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:christof.torres@inf.ethz.ch">christof.torres@tecnico.ulisboa.pt</a></li>
+                                <li><i class="fa fa-file-text"></i><span class="sr-only">CV:</span><a href="assets/documents/cv_christof_ferreira_torres_en.pdf"> Curriculum Vitae</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//aside-->
+
+                <section class="list interests section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Research Interests</h2>
+                        <div class="content">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-caret-right"></i>
+                                    Program analysis and software security
+                                </li><!--//li-->
+                                <li><i class="fa-li fa fa-caret-right"></i>
+                                    Blockchain security and privacy
+                                </li><!--//li-->
+                            </ul><!--//ul-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <aside class="list conferences aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Academic Services</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-pencil"></i> Program Committee (PC) member for <a href="https://esorics2023.org/organizers/pcmembers/" target="_blank">ESORICS 2023</a>, <a href="https://fc24.ifca.ai/cfp.html" target="_blank">FC 2024</a>, <a href="https://www.dimva.org/dimva2024/#committee" target="_blank">DIMVA 2024</a>, <a href="https://www.acsac.org/2024/committees/program/" target="_blank">ACSAC 2024</a>, <a href="https://www.ndss-symposium.org/ndss2025/leadership/technical-program-committee/" target="_blank">NDSS 2025</a>, <a href="https://sp2025.ieee-security.org/index.html" target="_blank">IEEE S&P 2025</a>, <a href="https://fc25.ifca.ai/cfp.html" target="_blank">FC 2025</a>, <a href="https://www.sigsac.org/ccs/CCS2025/program-committee/" target="_blank">CCS 2025</a>.</li>
+                                <li><i class="fa fa-pencil"></i> Technical Program Committee (TPC) member for <a href="https://icbc2019.ieee-icbc.org/" target="_blank">IEEE ICBC 2019</a>, <a href="https://icbc2020.ieee-icbc.org/" target="_blank">IEEE ICBC 2020</a>, <a href="https://icbc2021.ieee-icbc.org/" target="_blank">IEEE ICBC 2021</a>, <a href="https://www.blockchain-congress.net/" target="_blank">BLOCKCHAIN 2021</a>, <a href="https://www.blockchain-congress.net/" target="_blank">BLOCKCHAIN 2022</a>, <a href="https://icbc2022.ieee-icbc.org/" target="_blank">IEEE ICBC 2022</a>, <a href="https://icbc2023.ieee-icbc.org/" target="_blank">IEEE ICBC 2023</a>, <a href="https://icbc2024.ieee-icbc.org/committees/technical-committee" target="_blank">IEEE ICBC 2024</a>, <a href="https://icbc2025.ieee-icbc.org/committees/technical-program-committee" target="_blank">IEEE ICBC 2025</a>.</li>
+                                <li><i class="fa fa-pencil"></i> Journal Reviewer for <a href="https://www.journals.elsevier.com/computers-and-security" target="_blank">Elsevier Computers & Security</a>, <a href="https://dl.acm.org/journal/tosem" target="_blank">ACM TOSEM 2022</a>, <a href="https://www.computer.org/csdl/journal/ts/write-for-us/15090" target="_blank">IEEE TSE 2022</a>, <a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-information-forensics-and-security" target="_blank">IEEE TIFS 2022</a>.</li>
+                                <li><i class="fa fa-pencil"></i> External reviewer for <a href="https://esorics2019.uni.lu/" target="_blank">ESORICS 2019</a>, <a href="https://www.surrey.ac.uk/esorics-2020" target="_blank">ESORICS 2020</a>, <a href="http://sulab-sever.u-aizu.ac.jp/ACNS2021/" target="_blank">ACNS 2021</a>, <a href="https://issre.net/" target="_blank">ISSRE 2021</a>, <a href="https://www.ieee-security.org/TC/EuroSP2022/" target="_blank">IEEE EuroS&P 2022</a>, <a href="https://www.ieee-security.org/TC/EuroSP2023/" target="_blank">IEEE EuroS&P 2023</a>, <a href="https://www.ieee-security.org/TC/SP2023/" target="_blank">IEEE S&P 2023</a>.</li>
+                                <li><i class="fa fa-pencil"></i> Artifact Evaluation Committee (AEC) member for <a href="https://www.usenix.org/conference/usenixsecurity22/call-for-artifacts" target="_blank">USENIX 2022</a>, <a href="https://www.acsac.org/2022/committees/artifact/" target="_blank">ACSAC 2022</a>, <a href="https://www.usenix.org/conference/usenixsecurity23/call-for-artifacts" target="_blank">USENIX 2023</a>, <a href="https://www.usenix.org/conference/usenixsecurity24/call-for-artifacts" target="_blank">USENIX 2024</a>.</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="list talks aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Invited Talks</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-calendar"></i> <a href="https://dlt-school.github.io/" target="_blank">Scientific School on Blockchain & Distributed Ledger Technologies</a> (University of Cagliari, Italy). September 2024. Exploring the Dark Forest: An Introduction to Maximal Extractable Value (MEV).</li>
+                                <li><i class="fa fa-calendar"></i> <a href="https://hedgedoc.net.in.tum.de/s/6sJs4C5Ni#" target="_blank">TUM Blockchain Salon</a> (TU Munich, Germany). May 2024. Rolling in the Shadows: A Closer Look at MEV Extraction Across Layer 2 Rollups.</li>
+                                <li><i class="fa fa-calendar"></i> <a href="https://cysec.wien/news/2023-11-24_lecture_torres/" target="_blank">Vienna Cybersecurity and Privacy Research Cluster</a> (TU Vienna, Austria). November 2023. Do You Trust Your Wallet? Analyzing the Privacy Risks of Web3 Wallets.</li>
+                                <li><i class="fa fa-calendar"></i> <a href="https://sectrs.ethz.ch/the-group.html" target="_blank">Secure & Trustworthy Systems Group</a> (ETH Zurich, Switzerland). November 2021. A Journey on Smart Contract Security: A Story of Glory and Greed.</li>
+                                <li><i class="fa fa-calendar"></i> <a href="https://ripple.com/insights/ubri-enters-its-sophomore-year-in-high-gear/" target="_blank">UBRI Connect</a> (University of Berkeley, CA, USA). October 2019. The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts.</li>
+                                <li><i class="fa fa-calendar"></i> <a href="https://www.ru.nl/dis/research/lunch-colloquium/" target="_blank">Digital Security Lunch colloquium</a> (Radboud University, Nijmegen, The Netherlands). July 2019. The Art of The Scam: Demystifying Honeypots in Ethereum Smart Contracts.</li>
+                                <li><i class="fa fa-calendar"></i> <a href="https://www.ru.nl/dis/research/lunch-colloquium/" target="_blank">Digital Security Lunch colloquium</a> (Radboud University, Nijmegen, The Netherlands). August 2018. Investigating Fingerprinters and Fingerprinting-alike Behaviour of Android Applications.</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="list awards aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Awards & Grants</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                              <li><i class="fa fa-trophy"></i> <a href="https://www.thelatestindefi.org/fellowships" target="_blank">TLDR Research Fellowship 2024</a></li>  
+                              <li><i class="fa fa-star"></i> <a href="https://wwwfr.uni.lu/fstm/actualites/excellent_doctoral_thesis_awards_2022_in_science" target="_blank">Excellent Doctoral Thesis Award 2022</a></li>
+                              <li><i class="fa fa-star"></i> <a href="https://www.ubriconnect.com/" target="_blank">UBRI Impact Award 2022</a></li>
+                              <li><i class="fa fa-trophy"></i> <a href="https://www.fnr.lu/results-2018-2-industrial-fellowships-call/" target="_blank">FNR Industrial Fellowship Grant 2019</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="list teaching aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Teaching Experience</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li>
+                                  <i class="fa fa-graduation-cap"></i> <a href="https://fenix.tecnico.ulisboa.pt/disciplinas/SIRS11/2024-2025/1-semestre/pagina-inicial" target="_blank">SIRS11 Network and Computer Security</a>
+                                  <p>Fall Semester 2024/25 (IST)</p>
+                                  <i class="fa fa-graduation-cap"></i> <a href="https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=171997&semkez=2023W&ansicht=LEHRVERANSTALTUNGEN&lang=en" target="_blank">263-0009-00L Information Security Lab</a>
+                                  <p>Fall Semester 2023/24 (ETH)</p>
+                                  <i class="fa fa-graduation-cap"></i> <a href="https://infsec.ethz.ch/education/as2023/secsem.html" target="_blank">252-4601-00L Current Topics in Information Security</a>
+                                  <p>Fall Semester 2022/23, 2023/24 (ETH)</p>
+                                  <i class="fa fa-graduation-cap"></i> <a href="https://www.vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lang=en&lerneinheitId=169506&semkez=2023S&" target="_blank">252-0833-00L Computer Science II</a>
+                                  <p>Spring Semester 2022/23 (ETH)</p>
+                                  <i class="fa fa-graduation-cap"></i> <a href="https://www.vorlesungen.ethz.ch//lerneinheitPre.do?semkez=2021W&lerneinheitId=148434&lang=en" target="_blank">252-0217-00L Computer Systems</a>
+                                  <p>Fall Semester 2022/23 (ETH)</p>
+                                </li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner
+
+            </div><!--//secondary-->
+        </div><!--//row-->
+    </div><!--//masonry-->
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center shadow-sm rounded">
+                <small class="copyright">Copyright &copy; Christof Ferreira Torres 2024. All rights reserved. Original template designed by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a>.</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script>
+
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
